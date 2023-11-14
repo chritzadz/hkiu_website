@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+*::selection{
+    color:white;
+    background-color: #828ea2;
+}
+
+nav ul .program_nav{
+    border-bottom: solid #ffffff;
+    border-width: calc(2px + .1vw);
+    color: rgb(255, 255, 255) !important;
+    transition: 0.5s;
+}
+
+
+.promotion_information{
+    background-color: #18314b;
+    height: 1000px;
+    width: 80%;
+    margin: 30px auto 0;
+    overflow: auto;
+}
+
+.promotion_information > p{
+    background-color: #18314b;
+    text-align: center;
+    font-size: 40px;    
+    font-weight: 600;
+    padding: 100px 0px;
+    color: white;
+    display: block;
+}
+
+.first_video{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.second_video{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.second_video h2, .first_video h2{
+    padding-top: 15%;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+
+#desc_video1{
+    width: 50%;
+    height: calc(100%-50px);
+    margin: 0 auto;
+
+}
+#video1{
+    width: 70%;
+    height: calc(100%-50px);
+}
+
+#desc_video2{
+    width: 50%;
+    height: calc(100%-50px);
+    margin: 0 auto;
+}
+
+#video2{
+    width: 70%;
+    height: calc(100%-50px);
+}
+
+.table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.table table{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.table table, th, tr, td{
+    border: solid 2px;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+.table tr{
+    background-color: azure;
+}
+
+.table th{
+    background-color: #162638;
+    color: white;
+}
+
+.table tr:nth-child(odd){
+    background-color: #a6a6a6;
+}
+
+.table tr:hover{
+    background-color: #94b5e8;
+}
+
+.table td{
+    text-align: center;
+}

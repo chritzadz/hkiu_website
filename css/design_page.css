@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+*::selection{
+    color:white;
+    background-color: #828ea2;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.profile img{
+    width: 17%;
+    border-radius: 50%;
+    background-color: #18314b;
+    padding: 10px;
+}
+
+.table_design table{
+    width: 80%;
+}
+
+.table_design th, td{
+    width: 50%;
+}
+
+.sources{
+    text-decoration: none;
+    color: #18314b;
+    display: block;
+    width: 80%;
+    background-color: #bfd0e2;
+    margin: 20px auto;
+    padding: 20px 0px;
+}
+
+.sources h3{
+    margin: 20px auto;
+    text-align: center;
+    color: #18314b; 
+}
+
+.sources ul{
+    margin: 20px auto;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.sources ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+    background-position: left bottom;
+}
+
+.sources ul li{
+    display: inline;
+    color: black;
+    padding: 20px 20px;
+    border: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.sources ul li span{
+    font-size: 20px;
+    color: #bfd0e2;
+}
+
+.sources ul li a{
+    display: inline-block;
+    width: 30%;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background: linear-gradient(to right,#87a3c0 50%, #6b7d8f 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.table_design table, tr, th, td{
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.table_design table tr th{
+    background-color: #18314b;
+    color: white;
+}
+
+.table_design table tr{
+    background-color: #bac7dd;
+    color: rgb(0, 0, 0);
+}
+
+.table_design table tbody tr:hover{
+    background-color: #405c79;
+    color: white;
+}

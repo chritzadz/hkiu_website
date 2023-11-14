@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*:not(p){
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+*::selection{
+    color:white;
+    background-color: #828ea2;
+}
+
+nav ul .about_nav{
+    border-bottom: solid #ffffff;
+    border-width: calc(2px + .1vw);
+    color: rgb(255, 255, 255) !important;
+    transition: 0.5s;
+}
+
+.promotional_image{
+    background-color:#18314b;
+}
+
+.information{
+    display: block;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 25px;
+    width: 80%;
+    margin: auto;
+}
+.information p{
+    padding: 0px 40px 0px 40px;
+}
+
+.information .left_column{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+.information .right_column{
+    width: 50%;
+    float: left;
+}
+
+.information > p{
+    display: inline-block;
+    padding: 50px 20px 50px;
+    background-color: gray;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.information table{
+    width: 80%;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+}
+
+.information table, tr, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.information table, tr, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.information table tr th{
+    background-color: rgb(177, 164, 164);
+}
+
+.information table tr td{
+    background-color: rgb(120, 107, 107);
+}
+
+table caption > p{
+    display: block;
+    background-color:rgb(179, 179, 179);
+    font-size: 25px;
+}
+
+.information table tr:hover td:nth-child(n){
+    background-color: #F3E1F3;
+}

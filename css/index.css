@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*:not(dl, dd, dt){
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+nav ul .home_nav{
+    border-bottom: solid #ffffff;
+    border-width: calc(2px + .1vw);
+    color: rgb(255, 255, 255) !important;
+    transition: 0.5s;
+}
+
+.welcome{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-image: url(../image/student1.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(201, 201, 201, 0.7);
+    background-size: 100% 800px;
+    text-align: center;
+    padding: 5% 0;
+    font-size: 15px;    
+    color: black;
+    overflow: auto;
+}
+
+.welcome_to_cityu{
+    display: block;
+    font-size: 30px;
+    padding: 25px;
+    margin: 0px
+}
+
+.welcome_to_cityu p{
+    padding: 0px 20px;
+}
+
+.information_location{
+    height: 900px;
+    padding-top: 30px;
+    background-color: whitesmoke;
+}
+
+.location_title h2{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    position: relative;
+    top: 15px;
+}
+
+.information{
+    display: block;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 400px;
+    float:left;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    border-right: #18314b;
+    padding-top: 2%;
+}
+
+.information dl{
+    text-align: right;
+}
+
+.information dl dt{
+    font-size: 25px;
+}
+
+.apply_button{
+    display: block;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 400px;
+    float: left;
+    border-left: #18314b;
+}
+
+.apply_button dl, .apply_button > a{
+    padding: 0px 20px;
+}
+
+.apply_button dl dt{
+    font-size: 25px;
+}
+
+.apply_button dl dd{
+    margin-inline-start: 0px;
+    display: block;
+    width: 30%;
+}
+
+.apply_button dl dd a img{
+    padding: 0px;
+    width: 250px;
+    height: 70%;
+    padding-top: 20px;
+}
+
+.apply_button a img{
+    display: inline-block;
+    width: 180px;
+}
+
+.why_hkiu{
+    display: block;
+    background-color: #828ea2;
+    width: 100%;
+    height: 450px;
+    float: left;
+    padding: 0px 130px;
+    box-sizing: border-box;
+    overflow: auto;
+    border-right: #18314b;
+    padding-top: 2%;
+}
+
+.why_hkiu ul li{
+    display: table-row;
+    color: black;
+    padding: 20px 0px;
+}
+
+.why_hkiu ul li::before{
+    display: table-cell;
+    content: "+";
+    color: #18314b;
+}
+
+.why_hkiu ul li span{
+    font-size: 20px;
+    color: #bfd0e2;
+}

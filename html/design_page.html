@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Industrial University</title>
+    <link rel="stylesheet" type="text/css" href="../css/design_page.css">
+    <link rel="stylesheet" type="text/css" href="../css/navigation_bar.css">
+</head>
+
+<body>
+    <header>
+        <img class="top_logo" src="../image/logo.png" width="400" height="100" alt="HKIU logo">
+        <h1>
+            Hong Kong Industrial University
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="profile">
+        <h1>Design Page</h1>
+        <img src="../image/designer_profile.JPG" alt="designer website photo">
+        <p>Christian Anthony Dumanauw</p>
+        <p>57899220</p>
+    </div>
+
+    <div class="table_design">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Table List of Design</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="2">General</th>
+                </tr>
+                <tr>
+                    <td>If text is selected, the default background color is a white-ish blue, and the text change to white</td>
+                    <td>navigation_bar.css; line 9-12</td>
+                </tr>
+                <tr>
+                    <td>Position scheme</td>
+                    <td>Mostly, there is no position use, but there is a few (some of them being background-position): visit.css(line 41), contact.css(line 72, 86, 96, 105),printApply.css(line 11), navigation_bar.css(line 49, 64, 80, 90), index.css(line 52), design_page.css(line 89, 62)</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">CSS3 techniques</td>
+                </tr>
+                <tr>
+                    <td>A few application of round corner: navigation bar (navigation_bar.css; line 91-92), buttons (contact.css; line 54, 76, 104), apply heading (apply.css; line 42, 60-63)</td>
+                </tr>
+                <tr>
+                    <td>A few application of gradient: header(navigation_bar.css; line 78)</td>
+                </tr>
+                <tr>
+                    <td>A few application of transform: border animation(contact.css; line 111-118)</td>
+                </tr>
+                <tr>
+                    <td>A few application of transition: navigation bar(navigation_bar.css; line 81), button(contact.css; line 61, 67)</td>
+                </tr>
+                <tr>
+                    <td>A few application of animation: border animation(contact.css; line 90-91, 100)</td>
+                </tr>
+                <tr>
+                    <td>group style embedded</td>
+                    <td>All of the css file is put in a folder. There will be a css file for each webpage (except apply, since there is a css file designated for print media). Additionally, I made a page for the navigation bar. This is to reduce repetition in writing the navbar design.</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Navigation Bar</th>
+                </tr>
+                <tr>
+                    <td>Animation on navigation bar when hover - added bottom border transition and right to left transition of background color</td>
+                    <td>navigation_bar.css; line 38-92</td>
+                </tr>
+                <tr>
+                    <td>Set navigation bar max-width using @media (max-width: 800px will reduce the margin between the list element), (max-width:600px will remove the navigation bar)</td>
+                    <td>navigation_bar.css; line 85-88</td>
+                </tr>
+                <tr>
+                    <td>using :active. Is the nav button is pressed, than it will get slightly large</td>
+                    <td>navigation_bar.css; line 52-82</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Home Page</th>
+                </tr>
+                <tr>
+                    <td>Change the bullet point of list to the "+" symbol</td>
+                    <td>index.css; 131-135</td>
+                </tr>
+                <tr>
+                    <td>If the map is hovered, there will be a message from the image stated to click it. If it is clicked it will link to the visit page</td>
+                    <td>index.html; 55-58</td>
+                </tr>
+                <tr>
+                    <th colspan="2">About Page</th>
+                </tr>
+                <tr>
+                    <td>Multi column layout setup</td>
+                    <td>about.css: line 36-46</td>
+                </tr>
+                <tr>
+                    <td>background color of selected row will change color if hovered</td>
+                    <td>about.css; line 86-88</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Apply Page</th>
+                </tr>
+                <tr>
+                    <td>When heading is hovered, the corresponding block will appear</td>
+                    <td>apply.css; line 28-51</td>
+                </tr>
+                <tr>
+                    <td>As long as the cursor is hovering the college form, the form will still appear.</td>
+                    <td>apply.css; line 127-155</td>
+                </tr>
+                <tr>
+                    <td>As long as the cursor is hovering the college form, the corresponding heading background color of heading will still be applied</td>
+                    <td>apply.css; line 157-167</td>
+                </tr>
+                <tr>
+                    <td>The application form will only contain 3 forms in one line</td>
+                    <td>apply.css; line 53-64</td>
+                </tr>
+                <tr>
+                    <td>Printed result of choices using the print page function.</td>
+                    <td>printApply.css; -</td>
+                </tr>
+                <tr>
+                    <td>Table background color is colored by odd or even position of rows (using pseudo class :nth-child)</td>
+                    <td>apply.css; line 231-234</td>
+                </tr>
+                <tr>
+                    <td>Table background color will change color if hovered (change color by row)</td>
+                    <td>apply.css; line 216-218</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Visit Page</th>
+                </tr>
+                <tr>
+                    <td>Using multi column layout</td>
+                    <td>visit.css; line 27-43</td>
+                </tr>
+                <tr>
+                    <td>The booking form is structured using table for seperating the label and form tag. This is so I can align right the label without manipulating the form as well.</td>
+                    <td>visit.css; line 86-93</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Program Page</th>
+                </tr>
+                <tr>
+                    <td>Using multi column layout</td>
+                    <td>program.css; line 40-50</td>
+                </tr>
+                <tr>
+                    <td>Table background color is set according to the row position of odd or even using pseudoclass :nth-child</td>
+                    <td>program.css; line 110-112</td>
+                </tr>
+                <tr>
+                    <td>Table background color will change color if hovered (change color by row)</td>
+                    <td>program.css; line 114-116</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Contact Page</th>
+                </tr>
+                <tr>
+                    <td>Added buttons on how to contact the university</td>
+                    <td>contact.css; line 38-69</td>
+                </tr>
+                <tr>
+                    <td>Using list and anchor tag to create link realted to contact address</td>
+                    <td>contact.html; line 32-40</td>
+                </tr>
+                <tr>
+                    <td>Using animation as navigation bar for the buttons. Background color will move from left to right</td>
+                    <td>contact.css; line 84-118</td>
+                </tr>
+                <tr>
+                    <td>Using an animation with :before and :after (pseudo class), @keyframes property, and animation attribute to creat animated border.</td>
+                    <td>contact.css; line 84-101</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="sources">
+        <h3>Sources:</h3>
+        <ul>
+            <li><a href="https://www.geeksforgeeks.org/" target="_blank">geeksforgeeks.org</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></li>
+            <li><a href="https://freefrontend.com/" target="_blank">freefrontend.com/</a></li>
+            <li><a href="https://www.youtube.com/@CodingSnow" target="_blank">youtube.com/@CodingSnow</a></li>
+            <li><a href="https://devdevout.com/" target="_blank">devdevout.com</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <img src="../image/footer_logo.png" width="300" height="100" alt="HKIU logo">
+        <p>&copy; <em id="date"></em> CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href="design_page.html">Christian Anthony Dumanauw</a></p>
+    </footer>
+</body>
+</html>   

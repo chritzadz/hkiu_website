@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*:not(p){
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+*::selection{
+    color:white;
+    background-color: #828ea2;
+}
+
+nav ul .visit_nav{
+    border-bottom: solid #ffffff;
+    border-width: calc(2px + .1vw);
+    color: rgb(255, 255, 255) !important;
+    transition: 0.5s;
+}
+
+.welcome{
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.map{
+    width: 50%;
+    float: left;
+}
+
+.location{
+    width: 50%;
+    height: 500px;
+    padding-top: 300px;
+    text-align: left;
+    margin: 0px auto;
+    display: inline-block;
+    background-color: #30353b;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+.location p, h2{
+    display: block;
+    padding-left: 40px;
+    color: whitesmoke;
+}
+
+.location a{
+    color: whitesmoke;
+}
+
+.reservation{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.reservation h2{
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    color: black;
+}
+
+.reservation fieldset{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px 0px 20px 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.reservation legend{
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-left: 20px;
+}
+
+.reservation form fieldset table{
+    margin-left: 15px;
+}
+
+.reservation form fieldset label{
+    float: right;
+    padding-right:15px;
+}
+
+.reservation #chck_avail, #reset{
+    margin-top: 10px;
+    margin-left: 15px;
+}
